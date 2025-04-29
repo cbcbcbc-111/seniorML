@@ -1,0 +1,12 @@
+Variable names in order from left to right:
+	EDUCATION: Number of years of education.
+	SOUTH: Indicator variable for Southern Region (1=Person lives in 		South, 0=Person lives elsewhere).
+	SEX: Indicator variable for sex (1=Female, 0=Male).
+	EXPERIENCE: Number of years of work experience.
+	UNION: Indicator variable for union membership (1=Union member, 		0=Not union member).
+	WAGE: Wage (dollars per hour).
+	AGE: Age (years).
+	RACE: Race (1=Other, 2=Hispanic, 3=White).
+	OCCUPATION: Occupational category (1=Management, 		2=Sales, 3=Clerical, 4=Service, 5=Professional, 6=Other).
+	SECTOR: Sector (0=Other, 1=Manufacturing, 2=Construction).
+	MARR: Marital Status (0=Unmarried,  1=Married)
