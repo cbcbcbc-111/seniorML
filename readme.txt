@@ -1,0 +1,5 @@
+华科2024-2025春季学期高级机器学习课程作业
+利用样本权重去改进现有回归主动学习算法RD EMCM QBC
+dataset文件夹存储使用的数据集
+output文件夹存储输出的结果，包括图片和excel数据表格
+sw-regression文件夹存储具体代码文件：Data_Load.py为数据集加载函数；KMEANS_GPU.py为使用GPU版本的Kmeans聚类算法，加快运行速度；strategy.py为主函数，包括了原方法与改进方法，以及相应训练过程
