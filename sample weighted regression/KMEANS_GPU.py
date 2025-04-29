@@ -153,7 +153,7 @@ if __name__ == "__main__":
     for i in range(4,10):
         # 设置簇数和设备
         num_clusters = i
-        device = 'cuda:4' if torch.cuda.is_available() else 'cpu'
+        device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 
         # 使用 GPU 加速的 KMeans
         kmeans_gpu = KMeansGPU(num_clusters= num_clusters, max_iter=300, random_state=42, device=device)  # 'cuda' 表示使用 GPU
